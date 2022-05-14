@@ -1,0 +1,1129 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Z_DUMMY_TARGET"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"CMakeListsPrivate.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ARDUINO=10808"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ARDUINO_ARCH_AVR"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ARDUINO_AVR_UNO"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "F_CPU=16000000L"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "PLATFORMIO=50205"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "__AVR_ATmega328P__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "C:/Git/Soccer_arduino/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Git/Soccer_arduino/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/.platformio/packages/framework-arduino-avr/cores/arduino"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/.platformio/packages/framework-arduino-avr/variants/standard"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/.platformio/packages/framework-arduino-avr/libraries/HID/src"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/.platformio/packages/framework-arduino-avr/libraries/SPI/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/.platformio/packages/framework-arduino-avr/libraries/Wire/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "C:/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/.platformio/packages/toolchain-atmelavr/avr/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				55,
+				58,
+				78,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				108,
+				109
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ARDUINO=10808"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ARDUINO_ARCH_AVR"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ARDUINO_AVR_UNO"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "F_CPU=16000000L"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "PLATFORMIO=50205"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "__AVR_ATmega328P__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "C:/Git/Soccer_arduino/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Git/Soccer_arduino/src"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "C:/.platformio/packages/framework-arduino-avr/cores/arduino"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/.platformio/packages/framework-arduino-avr/variants/standard"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/.platformio/packages/framework-arduino-avr/libraries/HID/src"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/.platformio/packages/framework-arduino-avr/libraries/SPI/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "C:/.platformio/packages/framework-arduino-avr/libraries/Wire/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "C:/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "C:/.platformio/packages/toolchain-atmelavr/avr/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				52,
+				61
+			]
+		}
+	],
+	"id" : "Z_DUMMY_TARGET::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega328p",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Z_DUMMY_TARGET",
+	"nameOnDisk" : "Z_DUMMY_TARGET",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				55,
+				58,
+				61,
+				78,
+				96,
+				98,
+				100,
+				102,
+				104,
+				106,
+				108,
+				109
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				34,
+				36,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				54,
+				56,
+				57,
+				59,
+				60,
+				62,
+				77,
+				79,
+				97,
+				99,
+				101,
+				103,
+				105,
+				107,
+				110
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				35,
+				37,
+				38,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/A4988.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/A4988.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/BasicStepperDriver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/BasicStepperDriver.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/DRV8825.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/DRV8825.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/DRV8834.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/DRV8834.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/DRV8880.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/DRV8880.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/EthernetModbusServer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/EthernetModbusServer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/MultiDriver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/MultiDriver.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/SyncDriver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/SyncDriver.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/main.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/.codespellrc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/.github/dependabot.yml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/.github/workflows/check-arduino.yml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/.github/workflows/compile-examples.yml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/.github/workflows/report-size-deltas.yml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/.github/workflows/spell-check.yml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/.piopm",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/README.adoc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/examples/RTU/ModbusRTUClientKitchenSink/ModbusRTUClientKitchenSink.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/examples/RTU/ModbusRTUClientToggle/ModbusRTUClientToggle.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/examples/RTU/ModbusRTUServerKitchenSink/ModbusRTUServerKitchenSink.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/examples/RTU/ModbusRTUServerLED/ModbusRTUServerLED.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/examples/RTU/ModbusRTUTemperatureSensor/ModbusRTUTemperatureSensor.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/examples/TCP/EthernetModbusClientToggle/EthernetModbusClientToggle.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/examples/TCP/EthernetModbusServerLED/EthernetModbusServerLED.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/examples/TCP/WiFiModbusClientToggle/WiFiModbusClientToggle.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/examples/TCP/WiFiModbusClientToggle/arduino_secrets.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/examples/TCP/WiFiModbusServerLED/WiFiModbusServerLED.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/examples/TCP/WiFiModbusServerLED/arduino_secrets.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/keywords.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/library.properties",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/ArduinoModbus.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/ModbusClient.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/ModbusClient.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/ModbusRTUClient.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/ModbusRTUClient.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/ModbusRTUServer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/ModbusRTUServer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/ModbusServer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/ModbusServer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/ModbusTCPClient.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/ModbusTCPClient.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/ModbusTCPServer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/ModbusTCPServer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/libmodbus/modbus-data.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/libmodbus/modbus-private.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/libmodbus/modbus-rtu-private.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/libmodbus/modbus-rtu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/libmodbus/modbus-rtu.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/libmodbus/modbus-tcp-private.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/libmodbus/modbus-tcp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/libmodbus/modbus-tcp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/libmodbus/modbus-version.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/libmodbus/modbus.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoModbus/src/libmodbus/modbus.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/.codespellrc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/.github/dependabot.yml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/.github/workflows/check-arduino.yml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/.github/workflows/compile-examples.yml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/.github/workflows/report-size-deltas.yml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/.github/workflows/spell-check.yml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/.piopm",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/LICENSE.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/README.adoc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/examples/RS485Passthrough/RS485Passthrough.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/examples/RS485Receiver/RS485Receiver.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/examples/RS485Sender/RS485Sender.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/keywords.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/library.properties",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/src/ArduinoRS485.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/src/RS485.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/ArduinoRS485/src/RS485.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/.piopm",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/README.adoc",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/examples/AdvancedChatServer/AdvancedChatServer.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/examples/BarometricPressureWebServer/BarometricPressureWebServer.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/examples/ChatServer/ChatServer.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/examples/DhcpAddressPrinter/DhcpAddressPrinter.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/examples/DhcpChatServer/DhcpChatServer.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/examples/LinkStatus/LinkStatus.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/examples/TelnetClient/TelnetClient.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/examples/UDPSendReceiveString/UDPSendReceiveString.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/examples/UdpNtpClient/UdpNtpClient.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/examples/WebClient/WebClient.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/examples/WebClientRepeating/WebClientRepeating.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/examples/WebServer/WebServer.ino",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/keywords.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/library.properties",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Ethernet/src/Dhcp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/src/Dhcp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Ethernet/src/Dns.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/src/Dns.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Ethernet/src/Ethernet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/src/Ethernet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Ethernet/src/EthernetClient.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/src/EthernetClient.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Ethernet/src/EthernetServer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/src/EthernetServer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Ethernet/src/EthernetUdp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/src/EthernetUdp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Ethernet/src/socket.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/uno/Ethernet/src/utility/w5100.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/uno/Ethernet/src/utility/w5100.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
